@@ -2,14 +2,14 @@ public class Main {
     public static void main(String[] args) {
         int balance = 100;
         int payment = 2000;
-        int z = balance + payment;
-        int bonus = payment / 100 ;
-        int total = balance + payment + bonus ;
+        int no_bonus = balance + payment;
+        int bonus = payment / 100;
+        int total = balance + payment + bonus;
         if (payment > 1000) {
             System.out.println("Баланс: " + total);
             System.out.println("Количество бонусных рублей: " + bonus);
         } else {
-            System.out.println("Баланс: " + z);
+            System.out.println("Баланс: " + no_bonus);
             System.out.println("Количество бонусных рублей: " + 0);
         }
 
