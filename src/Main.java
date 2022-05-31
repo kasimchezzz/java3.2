@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 100;
-        int y = 2000;
-        int z = x + y;
-        int bonus = y / 100 ;
-        int total = x + y + bonus ;
-        if (y > 1000) {
+        int balance = 100;
+        int payment = 2000;
+        int z = balance + payment;
+        int bonus = payment / 100 ;
+        int total = balance + payment + bonus ;
+        if (payment > 1000) {
             System.out.println("Баланс: " + total);
             System.out.println("Количество бонусных рублей: " + bonus);
         } else {
